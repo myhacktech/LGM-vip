@@ -84,7 +84,7 @@ $cr=$_POST['password2'];
 
 if($c==$cr)
 {
-$con=new mysqli('localhost','root','','learning');
+$con=new mysqli('localhost','root','','vikram');
 $q="insert into admin values('$n','$c')";
 if($con->query($q))
 {
