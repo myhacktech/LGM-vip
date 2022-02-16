@@ -245,7 +245,7 @@ if(isset($_POST['btn']))
 	{
 	$s10="varchar(30)";
 	}
-	                    $con=new mysqli('localhost','root','','learning');
+	                    $con=new mysqli('localhost','root','','vikram');
 						$q="create table $t($f1 $s1,$f2 $s2,$f3 $s3,$f4 $s4,$f5 $s5,$f6 $s6,$f7 $s7,$f8 $s8,$f9 $s9,$f10 $s10)";
 						if($con->query($q)===true)
 						{ echo "<marquee><div class=re>Table Created</div></marquee>";
