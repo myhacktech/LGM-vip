@@ -58,7 +58,7 @@ if(isset($_POST['btn']))
 	$n=$_POST['nm'];
 	$ps=$_POST['ps'];
 	
-	$conn=mysqli_connect('localhost','root','','learning');
+	$conn=mysqli_connect('localhost','root','','vikram');
 	$query="select * from admin where password='$ps' AND name='$n'";
 	$res=mysqli_query($conn,$query);
 	$count=mysqli_num_rows($res);
