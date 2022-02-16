@@ -103,7 +103,7 @@ if(isset($_POST['btn']))
 
 	
 	
-	              $con=new mysqli('localhost','root','','learning');
+	              $con=new mysqli('localhost','root','','vikram');
 						$q="insert into $tb values('$f1','$f2','$f3','$f4','$f5','$f6','$f7','$f8','$f9','$f10')";
 						if($con->query($q))
 						{ echo "<div style='font-size:50px;position:absolute;top:0px;left:550px;background-color:brown;color:white;padding:10px;bordeer:solid;'>entry done</div>";
