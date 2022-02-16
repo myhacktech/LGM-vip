@@ -15,7 +15,7 @@ if(isset($_POST['btn']))
 {
 	$nm=$_POST['nm'];
 	$rn=$_POST['rn'];
-		              $con=new mysqli('localhost','root','','learning');
+		              $con=new mysqli('localhost','root','','vikram');
 						$q="select * from marks where rollno='$rn' AND name='$nm'";
 						$record=$con->query($q);
 						while($row=$record->fetch_assoc())
